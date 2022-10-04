@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>UniversityRavenshaw</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/12c4f48bb1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- headersection -->
+  <section class="sub-header">
+
+    <nav>
+
+      <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+
+    </nav>
+    <h1>Our Certificate & Online Programs For 2022</h1>
+
+  </section>
+
+  <!--  blog section ------------------>
+
+  <section class="blog-content">
+
+    <div class="cards">
+
+      <div class="blog-left">
+        <img src="images/certificate.jpg" alt="certificate">
+        <h2>Our Certificate & Online Programs For 2022</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec urna nibh, molestie scelerisque enim et, viverra porttitor ipsum. Nunc nec consectetur augue, vitae placerat sem. Integer venenatis ut tellus et posuere. Maecenas ut orci a
+          nisl pellentesque eleifend ac vitae sapien. Curabitur et sagittis orci. Pellentesque purus eros, dapibus ut nisi ut, lobortis pharetra tortor. Aenean mattis lobortis est, vel tristique lectus dapibus eu. Sed eu est sit amet erat suscipit
+          interdum. Aliquam tincidunt luctus libero, quis scelerisque diam feugiat eu. Donec felis odio, condimentum non congue id, sollicitudin in leo. Aenean nec nisl eget metus cursus mollis. Quisque quis pharetra velit, vitae ultrices tortor.
+          Donec et venenatis lorem. In ullamcorper ex nec congue dictum.<br><br>
+
+          Fusce ut ullamcorper justo, in congue sem. Morbi vulputate odio molestie lacus eleifend, sit amet pellentesque nisi finibus. Proin at mi tempor, rutrum ante quis, ultrices enim. Sed ut pretium libero. Mauris malesuada eu elit in convallis.
+          Proin volutpat massa eget tristique tristique. Cras porta eget lorem sagittis sodales. Morbi at ex tincidunt, semper lectus ut, euismod risus. Fusce a nunc vel enim venenatis cursus. Vivamus congue sem et diam elementum hendrerit. Aliquam
+          pharetra nunc diam, nec suscipit arcu molestie ac.<br><br>
+
+          Ut ut faucibus lacus. Pellentesque non rutrum magna. Cras tempus eu turpis euismod posuere. Duis aliquet est non massa vulputate tempus. Donec dictum congue ornare. Quisque vel erat commodo, gravida leo finibus, lacinia nisi. Etiam
+          fermentum faucibus scelerisque. Nunc a enim neque. Duis cursus interdum est et tincidunt. Mauris dapibus mattis quam eu porttitor.<br><br>
+
+          Maecenas facilisis vestibulum turpis, eget maximus purus euismod et. Morbi dapibus metus nec erat porta ornare. Nam facilisis urna vitae urna facilisis, at bibendum nunc blandit. Morbi tempus neque sed ipsum malesuada, in pellentesque massa
+          tempor. Duis convallis augue a dictum imperdiet. Cras vel mi porta, gravida metus ut, feugiat nunc. Vestibulum dictum viverra quam, id cursus justo semper convallis. Mauris molestie fermentum libero eu elementum. In sodales massa ut tortor
+          tincidunt, quis sollicitudin risus commodo.</p>
+
+        <div class="comment">
+          <h3>Leave a comment</h3>
+          <form class="comment-form">
+             <input type="text" name="name" placeholder="Enter Name" required>
+             <input type="email" name="email" placeholder="Enter Email" required>
+             <textarea rows="5" placeholder="Enter Comment"></textarea>
+             <button class="button btn" type="submit">POST COMMENT</button>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="blog-right">
+
+        <h3>Post Categories</h3>
+        <div>
+          <span>Business Analytics</span>
+          <span>21</span>
+        </div>
+        <div>
+          <span>Data Science</span>
+          <span>15</span>
+        </div>
+        <div>
+          <span>Machine Learning</span>
+          <span>34</span>
+        </div>
+        <div>
+          <span>Computer Science</span>
+          <span>28</span>
+        </div>
+        <div>
+          <span>AutoCard</span>
+          <span>58</span>
+        </div>
+        <div>
+          <span>Journalism</span>
+          <span>30</span>
+        </div>
+        <div>
+          <span>Commerce</span>
+          <span>42</span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- ---------------- footer section ------------------>
+
+  <section class="footer">
+
+    <h3>About Us</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum tortor vitae sapien dignissim,<br /> id posuere eros dapibus. Aliquam erat volutpat. Nunc aliquet diam massa. </p>
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-linkedin"></i>
+    <p>©️ 2022 LM</p>
+
+  </section>
+
+
+
+  <!-- Javascript -->
+    <script>
+
+      var navLinks = document.getElementById("navLinks");
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+
+      function showMenu() {
+        navLinks.style.right = "0px";
+      }
+
+    </script>
+
+</body>
+
+</html>
